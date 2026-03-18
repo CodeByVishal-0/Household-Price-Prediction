@@ -110,7 +110,7 @@ preprocessings=ColumnTransformer([
     ("cat",cat_pipeline,["ocean_proximity"]),
     ("simil",simil,['housing_median_age']),
     # ("pass","passthrough",["median_house_value"])
-    ("drops","drop",['median_house_value'])
+    # ("drops","drop",['median_house_value'])
 ],remainder=num_pipeline)
 
 # def preprocessing():
